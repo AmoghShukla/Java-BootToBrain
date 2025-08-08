@@ -20,6 +20,9 @@ public class StaticMemberExample{
         System.out.println("Value of StaticMember.test.Country: " + StaticMember.test.Country);
         StaticMember.test.Country = "USA"; // Accessing static variable of static inner class
         System.out.println("Value of StaticMember.test.Country: " + StaticMember.test.Country);
+
+        StaticMember.Fun2(); // Calling static member function
+        System.out.println("Value of StaticMember.y after Fun2: " + StaticMember.y);
     }
 
 }
