@@ -1,4 +1,4 @@
-package Import_In_Java;
+package Import_In_Java.pack2;
 
 public class Student {
     private String name;
