@@ -1,4 +1,6 @@
-package Inheritance;
+// This is the main class to run the program
+
+package Inheritance.Single;
 
 public class Main{
     public static void main(String []args){

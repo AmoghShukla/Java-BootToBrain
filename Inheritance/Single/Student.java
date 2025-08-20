@@ -1,4 +1,6 @@
-package Inheritance;
+// This Student class is a subclass of Person, it inherits the properties of Person
+
+package Inheritance.Single;
 
 public class Student extends Person {
     private String RollNo;

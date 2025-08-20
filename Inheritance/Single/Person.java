@@ -1,4 +1,6 @@
-package Inheritance;
+// This Person class is the superclass for Student, it will be inherited by the Student class
+
+package Inheritance.Single;
 
 public class Person {
     private String Name;
