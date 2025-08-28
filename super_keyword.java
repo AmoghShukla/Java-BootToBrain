@@ -1,3 +1,6 @@
+// Super Keyword in Java is used to refer to the immediate parent class object.
+// It can be used to call parent class methods, and to access parent class constructors.
+
 class A{
     public void f1(){
         System.out.println("Class A");
