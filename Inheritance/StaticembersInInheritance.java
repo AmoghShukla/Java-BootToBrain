@@ -1,3 +1,4 @@
+package Inheritance;
 class Parent{
     public static void f1(){
         System.out.println("Parent class static block");
