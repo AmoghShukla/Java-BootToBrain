@@ -4,7 +4,7 @@ public class Equals {
     public static void main(String[] args){
         String s1 = new String("hello");
         String s2 = new String("Hello");
-        if (s1.equals(s2)){
+        if (s1.equals(s2)){ // equals() method is case-sensitive and compares the content of the strings
             System.out.println("Strings are equal");
         } else {
             System.out.println("Strings are not equal");
