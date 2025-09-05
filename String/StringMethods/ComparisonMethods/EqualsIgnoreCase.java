@@ -4,9 +4,9 @@ public class EqualsIgnoreCase {
     public static void main(String[] args){
         String s1 = new String("hello");
         String s2 = new String("Hello");
-        if (s1.equalsIgnoreCase(s2)){
+        if (s1.equalsIgnoreCase(s2)){ // equalsIgnoreCase() method compares two strings, ignoring case considerations
             System.out.println("Strings are equal (ignoring case)");
-        } else {
+        } else { // case-sensitive comparison
             System.out.println("Strings are not equal");
         }
     }
