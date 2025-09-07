@@ -2,7 +2,7 @@ final class Example1{
 }
 
 class Example2{
-    final void func(){
+    final void func(){ // final method
         System.out.println("Final method in Example2");
     }
 }
@@ -20,7 +20,7 @@ public class final_keyword {
         y = 20; // static final variable must be initialized in static block
     }
     final_keyword(){
-        value = 5;
+        value = 5; // instance final variable must be initialized in constructor
     }
     public void function(){
         final int k = 7; // final local variable
