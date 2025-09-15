@@ -1,3 +1,5 @@
+// Java program to illustrate the comparison between two strings using == and equals() method
+
 package String;
 
 public class moreString {
