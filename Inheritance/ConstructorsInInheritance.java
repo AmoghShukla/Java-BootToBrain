@@ -1,3 +1,7 @@
+// Constructor in Inheritance
+// When a subclass object is created, the superclass constructor is called first to initialize the inherited attributes.
+// If the superclass constructor is not explicitly called, the default (no-argument) constructor of
+
 package Inheritance;
 
 class A{
