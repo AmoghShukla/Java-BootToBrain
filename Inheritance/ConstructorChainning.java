@@ -1,3 +1,5 @@
+// Constructor Chaining means calling one constructor from another constructor with respect to current object.
+// It is used to initialize an object with different ways.
 package Inheritance;
 
 class A{
