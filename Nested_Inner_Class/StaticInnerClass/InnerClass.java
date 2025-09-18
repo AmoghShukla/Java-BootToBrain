@@ -1,3 +1,4 @@
+package Nested_Inner_Class.StaticInnerClass;
 class Outer{
     static class Inner{
         void display(){

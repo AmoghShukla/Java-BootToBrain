@@ -6,7 +6,7 @@ package Inheritance;
 
 class A{
     int a ;
-    public A(){
+    public A
         System.out.println("In A's constructor");
         a = 10;
     }
