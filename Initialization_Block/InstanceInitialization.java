@@ -1,3 +1,7 @@
+// Demonstration of Instance Initialization Block in Java
+// Instance Initialization blocks are used to initialize instance variables.
+// They run every time an instance of the class is created, before the constructor.
+
 package Initialization_Block;
 
 public class InstanceInitialization {
