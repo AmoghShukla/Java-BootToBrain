@@ -1,3 +1,7 @@
+// Demonstration of Static Initialization Block in Java
+// Static Initialization blocks are used to initialize static variables.
+// They run once when the class is loaded, before any constructor or instance initialization block.
+
 package Initialization_Block;
 
 public class StaticInitialization {
