@@ -1,3 +1,7 @@
+// Demonstration of Interfaces in Java
+// This program defines three interfaces and a class that implements all of them.
+// The class provides concrete implementations for the methods declared in the interfaces.
+
 package Interface;
 
 interface I1{
