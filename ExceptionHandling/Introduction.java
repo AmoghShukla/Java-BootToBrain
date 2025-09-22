@@ -1,3 +1,7 @@
+// Introduction to Exception Handling in Java
+// This program demonstrates a simple try-catch block to handle a NullPointerException.
+
+
 package ExceptionHandling;
 
 public class Introduction {
