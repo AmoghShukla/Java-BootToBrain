@@ -24,25 +24,25 @@ public class CollectionIn{
         collection.add("Banana");
         collection.add("Cherry");
 
-        // // Displaying the size of the collection
-        // System.out.println("Size of collection: " + collection.size());
+        // Displaying the size of the collection
+        System.out.println("Size of collection: " + collection.size());
 
-        // // Checking if the collection contains a specific element
-        // System.out.println("Collection contains 'Banana': " + collection.contains("Banana"));
+        // Checking if the collection contains a specific element
+        System.out.println("Collection contains 'Banana': " + collection.contains("Banana"));
 
-        // // Iterating through the elements in the collection
-        // System.out.println("Elements in the collection:");
-        // for (String item : collection) {
-        //     System.out.println(item);
-        // }
+        // Iterating through the elements in the collection
+        System.out.println("Elements in the collection:");
+        for (String item : collection) {
+            System.out.println(item);
+        }
 
-        // // Removing an element from the collection
-        // collection.remove("Banana");
-        // System.out.println("After removing 'Banana', size of collection: " + collection.size());
+        // Removing an element from the collection
+        collection.remove("Banana");
+        System.out.println("After removing 'Banana', size of collection: " + collection.size());
 
-        // // Clearing the collection
-        // collection.clear();
-        // System.out.println("After clearing, is the collection empty? " + collection.isEmpty());
+        // Clearing the collection
+        collection.clear();
+        System.out.println("After clearing, is the collection empty? " + collection.isEmpty());
     }
 
 }
