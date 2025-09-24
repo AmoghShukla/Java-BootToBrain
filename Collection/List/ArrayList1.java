@@ -7,7 +7,11 @@ public class ArrayList1 {
         nameList.add("Amogh");
         nameList.add("Shukla");
         nameList.add("Aman");
-        nameList.add("Kumar");
+        nameList.add(0,"Kumar");
+        Iterator it = nameList.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
     }
     
 }
