@@ -9,7 +9,6 @@ public class LinkedList1 {
         L1.add(1, "Rajesh");
         System.out.println(L1.getFirst());
         System.out.println(L1.get(1));
-        
         System.out.println(L1.indexOf("Rajesh"));
         System.out.println(L1.getLast());
     }
