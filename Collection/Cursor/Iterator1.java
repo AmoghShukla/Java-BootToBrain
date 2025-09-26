@@ -1,4 +1,4 @@
-package Collection.List;
+package Collection.Cursor;
 import java.util.*;
 
 public class Iterator1 {
