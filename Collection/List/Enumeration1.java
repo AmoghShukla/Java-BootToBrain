@@ -12,6 +12,7 @@ public class Enumeration1 {
         while(e.hasMoreElements()){
             String s = (String)e.nextElement();
             System.out.println(s);
+            System.out.println("Length : "+ s.length());
         }
     }
     
