@@ -12,7 +12,7 @@ public class LinkedHashSet1 {
         lhs.add("Amogh6");
         System.out.println(lhs);
 
-        // Parameterised Constructor
+         // Parameterised Constructor
         LinkedHashSet lhs2 = new LinkedHashSet(5);
         lhs2.add("Shukla1");
         lhs2.add("Shukla2");
@@ -20,6 +20,8 @@ public class LinkedHashSet1 {
         lhs2.add("Shukla4");
         lhs2.add("Shukla5");
         System.out.println(lhs2);
+
+       
     }
     
 }
