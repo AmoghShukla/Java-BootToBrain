@@ -12,5 +12,6 @@ public class SortedSet1 {
 
         System.out.println("Sorted Set: " + sortedSet);
         System.out.println("First Element: " + sortedSet.first());
+        System.out.println("Last Element: " + sortedSet.last());
     }
 }
