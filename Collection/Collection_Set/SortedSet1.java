@@ -11,5 +11,6 @@ public class SortedSet1 {
         sortedSet.add("Orange");
 
         System.out.println("Sorted Set: " + sortedSet);
+        System.out.println("First Element: " + sortedSet.first());
     }
 }
