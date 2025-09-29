@@ -10,7 +10,7 @@ public class NavigableSet1 {
         navigableSet.add("Orange");
 
 
-         System.out.println("Navigable Set: " + navigableSet);
+        System.out.println("Navigable Set: " + navigableSet);
         System.out.println("First Element: " + navigableSet.first());
         System.out.println("Last Element: " + navigableSet.last());
         System.out.println("Lower than Mango: " + navigableSet.lower("Mango"));
@@ -19,6 +19,7 @@ public class NavigableSet1 {
         System.out.println("Ceiling of Mango: " + navigableSet.ceiling("Mango"));
         System.out.println("Descending Set: " + navigableSet.descendingSet());
         System.out.println("Poll First: " + navigableSet.pollFirst());
+        System.out.println("Poll Last: " + navigableSet.pollLast());
         
       
         
