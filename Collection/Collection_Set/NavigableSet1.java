@@ -17,6 +17,8 @@ public class NavigableSet1 {
         System.out.println("Higher than Mango: " + navigableSet.higher("Mango"));
         System.out.println("Floor of Mango: " + navigableSet.floor("Mango"));
         System.out.println("Ceiling of Mango: " + navigableSet.ceiling("Mango"));
+        System.out.println("Descending Set: " + navigableSet.descendingSet());
+        System.out.println("Poll First: " + navigableSet.pollFirst());
         
       
         
