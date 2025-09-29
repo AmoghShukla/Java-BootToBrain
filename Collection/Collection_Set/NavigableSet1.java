@@ -15,6 +15,9 @@ public class NavigableSet1 {
         System.out.println("Last Element: " + navigableSet.last());
         System.out.println("Lower than Mango: " + navigableSet.lower("Mango"));
         System.out.println("Higher than Mango: " + navigableSet.higher("Mango"));
+        System.out.println("Floor of Mango: " + navigableSet.floor("Mango"));
+        System.out.println("Ceiling of Mango: " + navigableSet.ceiling("Mango"));
+        
       
         
 
