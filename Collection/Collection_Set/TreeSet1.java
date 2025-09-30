@@ -12,6 +12,8 @@ public class TreeSet1 {
         System.out.println(ts);
 
         ts.remove("C");
+        System.out.println(ts);
+        System.out.println(ts.size());
     }
     
 }
