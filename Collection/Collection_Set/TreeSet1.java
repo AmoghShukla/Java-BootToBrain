@@ -10,6 +10,8 @@ public class TreeSet1 {
         ts.add("D");
         ts.add("E");
         System.out.println(ts);
+
+        ts.remove("C");
     }
     
 }
