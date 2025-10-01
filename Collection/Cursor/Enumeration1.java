@@ -7,6 +7,7 @@ public class Enumeration1 {
         v.addElement("One");
         v.addElement("Two");
         v.addElement("Three");
+        v.addElement("Four");
 
         Enumeration e = v.elements(); 
         while(e.hasMoreElements()){
