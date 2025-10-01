@@ -15,5 +15,7 @@ public class SortedSet1 {
         System.out.println("Last Element: " + sortedSet.last());
         System.out.println("Head Set (up to Mango): " + sortedSet.headSet("Mango"));
         System.out.println("Tail Set (from Mango): " + sortedSet.tailSet("Mango"));
+        System.out.println("Sub Set (from Apple to Orange): " + sortedSet.subSet("Apple", "Orange"));
+        System.out.println("Size of Sorted Set: " + sortedSet.size());
     }
 }
