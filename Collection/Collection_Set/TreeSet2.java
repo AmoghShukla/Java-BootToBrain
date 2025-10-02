@@ -10,6 +10,10 @@ public class TreeSet2 {
         ts.add("D");
         ts.add("E");
         System.out.println(ts);
+
+        System.out.println("Head Set: " + ts.headSet("C")); // Elements less than C
+        System.out.println("Tail Set: " + ts.tailSet("C")); // Elements greater than or equal to C
+        System.out.println("Sub Set: " + ts.subSet("B", "D")); // Elements from B (inclusive) to D (exclusive)
     }
     
 }
