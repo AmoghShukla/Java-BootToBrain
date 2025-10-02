@@ -20,11 +20,6 @@ public class NavigableSet1 {
         System.out.println("Descending Set: " + navigableSet.descendingSet());
         System.out.println("Poll First: " + navigableSet.pollFirst());
         System.out.println("Poll Last: " + navigableSet.pollLast());
-        
-      
-        
-
-       
     }
     
 }
