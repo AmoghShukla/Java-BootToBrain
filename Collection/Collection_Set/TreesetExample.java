@@ -16,5 +16,11 @@ class Book{
 }
 
 public class TreesetExample {
+    public static void main(String[] args) {
+        Book b1, b2, b3;
+        b1 = new Book(100, "Java");
+        b2 = new Book(200, "Python");
+        b3 = new Book(150, "The Subtle Art of Not Giving a F*ck");
+    }
     
 }
