@@ -14,6 +14,23 @@ class Book{
     public int getPrice(){
         return price;
 }
+}
+
+// Implementing the COmparator interface
+class MyComparator implements Comparator{
+
+    public int compare(Object obj1, Object obj2){
+        Book b1 = (Book)obj1;
+        Book b2 = (Book)obj2;
+        if(b1.getPrice() < b2.getPrice()){
+            return -1;
+        } else if(b1.getPrice() > b2.getPrice()){
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+}
 
 public class TreesetExample {
     public static void main(String[] args) {
@@ -21,6 +38,8 @@ public class TreesetExample {
         b1 = new Book(100, "Java");
         b2 = new Book(200, "Python");
         b3 = new Book(150, "The Subtle Art of Not Giving a F*ck");
+        TreeSet
     }
+
     
 }
