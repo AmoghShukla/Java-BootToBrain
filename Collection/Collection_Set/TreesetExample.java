@@ -42,6 +42,15 @@ public class TreesetExample {
         t.add(b1);
         t.add(b2);
         t.add(b3);
+
+        // Reference Variable for Iteration
+        Book b;
+
+        Iterator it = t.iterator();
+        while(it.hasNext()){
+            b=(Book)it.next();
+            System.out.println(b.getTitle() + " : " + b.getPrice());
+        }
     }
 
     
