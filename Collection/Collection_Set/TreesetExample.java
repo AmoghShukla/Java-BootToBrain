@@ -11,6 +11,8 @@ class Book{
     public String getTitle(){
         return name;
     }
+    public int getPrice(){
+        return price;
 }
 
 public class TreesetExample {
