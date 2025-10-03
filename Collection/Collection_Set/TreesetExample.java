@@ -38,7 +38,10 @@ public class TreesetExample {
         b1 = new Book(100, "Java");
         b2 = new Book(200, "Python");
         b3 = new Book(150, "The Subtle Art of Not Giving a F*ck");
-        TreeSet
+        TreeSet t = new TreeSet(new MyComparator());
+        t.add(b1);
+        t.add(b2);
+        t.add(b3);
     }
 
     
