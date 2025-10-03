@@ -8,6 +8,9 @@ class Book{
         this.price = price;
         this.name = name;
     }
+    public String getTitle(){
+        return name;
+    }
 }
 
 public class TreesetExample {
