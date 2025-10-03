@@ -11,6 +11,6 @@ public class TreeSet2 {
         ts.add(20);
         System.out.println(ts);
 
-          }
+    }
     
 }
