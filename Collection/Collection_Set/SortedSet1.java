@@ -9,7 +9,7 @@ public class SortedSet1 {
         sortedSet.add("Apple");
         sortedSet.add("Mango");
         sortedSet.add("Orange");
-
+        // Displaying the SortedSet
         System.out.println("Sorted Set: " + sortedSet);
         System.out.println("First Element: " + sortedSet.first());
         System.out.println("Last Element: " + sortedSet.last());
