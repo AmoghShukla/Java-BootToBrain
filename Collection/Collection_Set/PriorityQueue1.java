@@ -21,6 +21,18 @@ public class PriorityQueue1 {
         pq2.offer("Shukla5");
         System.out.println(pq2);
 
+        System.out.println(pq.poll());
+        System.out.println(pq.poll());
+        System.out.println(pq.poll());
+        System.out.println(pq.poll());
+        System.out.println(pq.poll());
+        System.out.println(pq.poll());
+        System.out.println(pq.poll());
+        System.out.println(pq.poll());
+        System.out.println(pq.poll());
+        System.out.println(pq.poll());
+        System.out.println(pq.poll());
+
         
     }
     
