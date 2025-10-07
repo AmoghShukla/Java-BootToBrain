@@ -9,5 +9,9 @@ public class Example1 {
         v1.add("15");
         v1.add("5");
         System.out.println(v1);
+        Collections.sort(v1);
+        Collections.sort(v1);
+        Collections.sort(v1);
+        System.out.println(v1);
     }
 }
