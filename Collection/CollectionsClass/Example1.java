@@ -13,5 +13,7 @@ public class Example1 {
         int x = Collections.binarySearch(v1, 15);
         System.out.println(v1);
         System.out.println(x);
+        Collections.reverse(v1);
+        System.out.println(v1);
     }
 }
