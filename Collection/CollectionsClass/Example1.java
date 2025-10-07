@@ -15,5 +15,9 @@ public class Example1 {
         System.out.println(x);
         Collections.reverse(v1);
         System.out.println(v1);
+        Collections.shuffle(v1);
+        System.out.println(v1);
+        Collections.swap(v1, 0, 2);
+        System.out.println(v1);
     }
 }
