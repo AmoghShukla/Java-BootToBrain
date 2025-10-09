@@ -1,4 +1,4 @@
-package Threading;
+package ThreadingInJava;
 import java.util.*;
 
 class A implements Runnable {

@@ -1,4 +1,4 @@
-package Threading;
+package ThreadingInJava;
 import java.lang.Runnable;
 
 public class ThreadsInJava {
