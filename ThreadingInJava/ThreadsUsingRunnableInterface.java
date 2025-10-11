@@ -27,4 +27,5 @@ public class ThreadsUsingRunnableInterface {
 }
 
 
-// Threads using runnable Interface
+// Threads using runnable Interface implements the Runnable interface
+// and provides the run() method which contains the code to be executed by the thread.
