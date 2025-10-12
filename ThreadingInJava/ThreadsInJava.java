@@ -2,7 +2,7 @@ package ThreadingInJava;
 import java.lang.Runnable;
 
 public class ThreadsInJava {
-
+    // Main class
     public static void main(String[] args) {
         Runnable task = new Runnable() {
             @Override
