@@ -1,6 +1,7 @@
 package ThreadingInJava;
 import java.util.*;
 
+// Thread A
 class A extends Thread{
     public void run() {
         for (int i = 0; i < 10; i++) {
@@ -9,6 +10,7 @@ class A extends Thread{
     }
 }
 
+// Thread B
 class B extends Thread{
     public void run() {
         for (int i = 0; i < 10; i++) {
@@ -17,6 +19,7 @@ class B extends Thread{
     }
 }
 
+// Main class
 public class ExtendThreadClass {
     public static void main(String[] args) {
         A threadA = new A();
