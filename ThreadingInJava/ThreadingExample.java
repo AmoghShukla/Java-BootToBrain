@@ -47,8 +47,10 @@ public class ThreadingExample {
         Thread t1 = new Thread(c1);
         Customer c2 = new Customer(a1);
         Thread t2 = new Thread(c2);
+        t1.start();
+        t2.start();
 
-        
+
     }
     
 }
