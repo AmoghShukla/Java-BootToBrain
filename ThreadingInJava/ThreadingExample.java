@@ -25,6 +25,19 @@ class Account{
 
 }
 
+class Customer implements Runnable{
+    private Account acc;
+    public Customer(Account acc){
+        this.acc = acc;
+    }
+    public void run(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter amount to withdraw: ");
+        int amt = sc.nextInt();
+        acc.withdraw(amt);
+    }
+
+}
 
 
 public class ThreadingExample {
