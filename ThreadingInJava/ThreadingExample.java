@@ -39,7 +39,7 @@ class Customer implements Runnable{
             acc.withdraw(amt, name);
             }
             else{
-                System.out.println("Insufficient Balance");
+                System.out.println(name + "has Insufficient Balance");
             }
         }
     }
