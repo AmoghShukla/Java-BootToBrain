@@ -30,6 +30,7 @@ class Customer implements Runnable{
         this.name = name;
     }
     public void run(){
+        // Creating a scanner object to take input
         Scanner sc = new Scanner(System.in);
         synchronized(acc){
             System.out.println("Enter amount to withdraw: ");
