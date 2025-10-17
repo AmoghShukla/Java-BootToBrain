@@ -32,7 +32,7 @@ class Customer implements Runnable{
     public void run(){
         // Creating a scanner object to take input
         Scanner sc = new Scanner(System.in);
-        // Synchronuized block which locks the account object and allows only one thread to access it at a time
+        // Synchronized block which locks the account object and allows only one thread to access it at a time
         synchronized(acc){
             System.out.println("Enter amount to withdraw: ");
             int amt = sc.nextInt();
@@ -44,6 +44,7 @@ class Customer implements Runnable{
                 System.out.println(name + "has Insufficient Balance");
             }
         }
+        // The scanner is closed after the operations are done
     }
 
 }
