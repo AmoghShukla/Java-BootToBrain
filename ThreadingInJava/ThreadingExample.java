@@ -1,6 +1,8 @@
 package ThreadingInJava;
 import java.util.Scanner;
 
+
+// An Account class representing a bank account
 class Account{
     private int bal;
     public Account(int bal){
