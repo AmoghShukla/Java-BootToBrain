@@ -8,6 +8,7 @@ class Account{
     public Account(int bal){
         this.bal=bal;
     }
+    // Method to check if the account has sufficient balance
     public boolean hasSufficientBalance(int amt){
         if(amt < bal){
             return(true);
