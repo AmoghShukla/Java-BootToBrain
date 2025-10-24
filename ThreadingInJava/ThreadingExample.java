@@ -16,6 +16,7 @@ class Account{
             return(false);
         }
     }
+    // Method to withdraw amount from the account
     public void withdraw(int amt, String name){
             bal = bal - amt;
             System.out.println("Hello " + name);
