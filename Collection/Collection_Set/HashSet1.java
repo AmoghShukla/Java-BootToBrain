@@ -10,6 +10,7 @@ public class HashSet1 {
         H1.add("Amogh4");
         H1.add("Amogh5");
         H1.add("Amogh6");
+        H1.add("Amogh7");
         System.out.println(H1);
 
         // Parameterised Constructor
