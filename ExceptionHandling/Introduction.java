@@ -2,6 +2,7 @@
 // This program demonstrates a simple try-catch block to handle a NullPointerException.
 
 
+//Import the ExceptionHandling Package
 package ExceptionHandling;
 
 public class Introduction {
