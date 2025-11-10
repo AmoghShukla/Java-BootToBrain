@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class IfElse {
+    public static void main(String[] args){
+        int presetPIN = 1234;
+        Scanner sc = new Scanner(System.in);
+
+        int newPIN = sc.nextInt();
+
+        if (presetPIN == newPIN){
+            System.out.println("Correct Password Entered");
+        } else {
+            System.out.println("Access Denied");
+        }
+    }
+    
+}
