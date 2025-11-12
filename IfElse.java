@@ -9,9 +9,9 @@ public class IfElse {
         int newPIN = sc.nextInt();
 
         if (presetPIN == newPIN){
-            System.out.println("Correct Password Entered");
+            System.out.println("Correct Pin Entered");
         } else {
-            System.out.println("Access Denied");
+            System.out.println("Wrong Pin, Access Denied");
         }
     }
     
