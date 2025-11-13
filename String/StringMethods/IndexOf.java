@@ -2,6 +2,7 @@ package String.StringMethods;
 
 public class IndexOf {
     public static void main(String[] args) {
+        // Main class
         String str = "Hello, welcome to the world of Java programming."; // Sample string
         int index1 = str.indexOf("welcome");
         System.out.println("Index of 'welcome': " + index1); // Output: 7
